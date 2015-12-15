@@ -1,0 +1,355 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {height: 100%; margin-bottom: 1px; background:#ffffff}
+body, ul, form {margin: 0px; padding:0px;}
+a {cursor:pointer;}
+img {border: 0px;}
+
+body {background: url(../img/stacked_circles.png) ;}
+
+body, p, form, select, input, a, table, th, tr, td, div, ul, ol, li, span {font-family: Verdana, Helvetica,Arial,sans-serif;}
+
+div.center {text-align: left;}
+
+div#wrapper {min-width: 750px; max-width: 960px; margin-left: auto; margin-right: auto;}
+
+div#fios {border:1px dotted #063;display:table; width:100%;}
+div#cabecalho {background:#aecac2; height:33px; padding-top:10px; text-align:center; width:100%;}
+div#topo {background:#aecac2; height:17px; width:100%;}
+div#top_dir {background:#aecac2; float:left; height:17px; width:16%;}
+div#top_esq {background:#ffffff; border:1px solid #7fb299; border-bottom:1px solid #ffffff; float:left; height:15px; margin-right:1%; width:82%;}
+
+div#conteudo { background:#FFF; display:table; float:left; width:100%;}
+div#menu {float:left; width:16%;}
+div#menu_active {background-image:url(../img/aba_active.gif); color:#006633; float:right; font-size:12px; height:38px; margin-top:15px; padding-right:15px; padding-top:20px; text-align:right; width:126px;}
+a.menu { background-image:url(../img/aba_off.gif); color:#999999; float:right; font-size:12px; height:38px; margin-top:15px; padding-right:15px; padding-top:20px; text-align:right; text-decoration:none; width:112px;}
+a:hover.menu { background-image:url(../img/aba_on.gif); color:#599b7a; float:right; font-size:12px; height:38px; margin-top:15px; padding-right:15px; padding-top:20px; text-align:right;  text-decoration:none; width:120px;}
+
+div#menu_active3 {background-image:url(../img/aba_active.gif); color:#006633; float:right; font-size:12px; height:44px; margin-top:15px; padding-right:15px; padding-top:14px; text-align:right; width:126px;}
+a.menu3 { background-image:url(../img/aba_off.gif); color:#999999; float:right; font-size:12px; height:44px; margin-top:15px; padding-right:15px; padding-top:14px; text-align:right; text-decoration:none; width:112px;}
+a:hover.menu3 { background-image:url(../img/aba_on.gif); color:#599b7a; float:right; font-size:12px; height:44px; margin-top:15px; padding-right:15px; padding-top:14px; text-align:right;  text-decoration:none; width:120px;}
+
+div#corpo {background:#ffffff; border:1px solid #7fb299; border-top:none; border-bottom:none; display:block; float:left; height:auto; min-height:380px; width:82%;}
+div#corpo  p {font-size:12px; text-align:justify; line-height:18px; padding-left:50px; padding-right:50px; text-indent:50px;}
+div#corpo  div.tit {font-size:12px; text-align:justify; line-height:18px; padding-left:50px; padding-right:50px;}
+
+div#rodape {background:#cbe7df; float:left; height:17px; width:100%;}
+div#rod_dir {background:#cbe7df; float:left; height:17px; width:16%;}
+div#rod_esq {background:#ffffff; border:1px solid #7fb299; border-top:none; float:left; height:15px; margin-right:1%; width:82%;}
+div#assinatura {background:#cbe7df; float:left; height:60px; width:100%;}
+div#logos {background:#e1e3d3; float:left; height:60px; width:100%;}
+
+div#titulo {border-bottom:2px solid #7fb299; color:#063; font-size:16px; font-weight:bold; float:right; padding-right: 20px; text-align:left; width:60%}
+
+a.indica {color:#000000; text-decoration:none;}
+a.indica:hover {color:#666666; text-decoration:underline;}
+
+div#grupo { text-align:left; font-size:12px; font-weight:bold; margin-left:15px; margin-right:15px;}
+div#textos {background:#dbdbdb; border:1px solid #cccccc; color:#063; font-size:12px; font-family: Verdana; padding:5px; text-align:left}
+div#textos_ind {background:#dbdbdb; border:1px solid #cccccc; color:#063; font-size:12px; font-family: Verdana; padding:5px;  margin-left:15px; margin-right:15px; margin-bottom:2px; margin-top:10px; text-align:left}
+
+div#grupoInd {width:93%; overflow:auto; float:left; height:auto; max-height:350px; margin-left:15px; margin-right:15px; margin-bottom:20px; padding-left:25px; font-size:12px;border:1px dotted #7fb299}
+
+div#metadados {float:left; margin-left:15px; margin-right:15px; width:96%}
+div#titMetadados {background:#dbdbdb; border:1px solid #cccccc; color:#063; float:left; font-size:12px; font-weight:bold; font-family: Verdana; padding:5px; margin-left:15px; margin-right:15px; margin-bottom:2px; text-align:left; width:94.5%;}
+div#divMetadados {border:1px solid #999999; font-size:11px;font-weight:normal;background:#fff; height:50px; padding:5px;}
+div#botao {float:left;width:100%; margin-top:20px;margin-left:15px;}
+
+div#divLocalidade {width:93%; overflow:auto; float:left; padding-left:25px; height:350px; margin-left:15px; margin-right:15px; margin-bottom:20px; font-size:12px;border:1px dotted #7fb299;}
+
+
+
+/*barra Brasil*/
+body {
+	margin:0;
+}
+#barra-brasil-v3 {
+        position:relative;
+        clear:both;
+        overflow:hidden;
+        min-width:1000px;
+        height:28px;
+        background:#004b82;
+}
+#barra-brasil-v3 span {
+        display:block;
+        width:50%;
+        height:28px;
+        background:url(http://portalsaude.saude.gov.br/portalsaude/includes/templates/eportal//img/barra-brasil-v3-bgx.gif) 0 bottom repeat-x;
+}
+#barra-brasil-v3 span .imagemGov {
+        position:absolute;
+        top:4px;
+        left:50%;
+        height: 24px;
+        width: 1000px;
+        background: url(http://portalsaude.saude.gov.br/portalsaude/includes/templates/eportal//img/barra-brasil-v3-azul.gif) right top no-repeat;
+        margin-left:-518px;
+}
+#barra-brasil-v3 span .imagemAi {
+        position:absolute;
+        top:4px;
+        left:48%;
+        height: 24px;
+        width: 810px;
+        margin-left:-450px;
+}
+#barra-brasil-v3 span .acessoainformacaogov {
+        width: 120px;
+        height: 24px;
+        float:right;
+        display:block;
+        border: 0 !important;
+}
+#barra-brasil-v3 span .brasilgov {
+        width: 100px;
+        height: 24px;
+        float:right;
+        display:block;
+        border: 0 !important;
+}
+
+/*mapas */
+div#menuUF {
+position:relative;
+padding: 5px;
+float:right;
+margin-top:10px;
+height:auto;
+font-size:10px;
+border:2px solid #7fb299;
+z-index: 999;
+border-radius: 4px;
+background-color: #FFFFFF;
+opacity:0.8;
+}
+.lstUF{
+    font-size:10px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    background-color: #CBE7DF;
+}
+
+/*recebe a lista de localidades das CIRS*/
+
+div#divInfMapa {
+    border: 1px solid #7F7F7F;
+    text-align:left;
+    position:absolute;    
+    width:210px;
+    height:auto;
+    z-index:999;
+    background-color:#fff;
+    margin-top: 120px;
+    margin-left: 574px;
+    opacity:0.8;	
+    border-radius:4px;
+}
+
+div#divInfMapa p {
+    text-align:left;
+    padding: 0px;
+    text-indent: 5px;
+}
+
+
+
+#divtabela {position:relative;display:block;opacity:0.95;margin-top: 15px; padding: 10px}
+#divtabela h1,h2{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;font-size: 14px}
+#divtabela h3{font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;text-align: left;font-size: 12px}
+#tabela{
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+width:100%;
+border-collapse:collapse;
+}
+#tabela td, #tabela th {
+font-size:12px;
+border:1px solid #FFFFFF;
+padding:3px 7px 2px 7px;
+text-align:left;
+}
+#tabela .tnum {text-align:right;}
+#tabela th {
+font-size:12px;
+text-align:left;
+padding-top:5px;
+padding-bottom:4px;
+background-color:#AECAC2;
+color:#ffffff;
+}
+#tabela tr.alt td {
+color:#000000;
+background-color:#CBE7DF;
+}
+
+/**mapa tematico**/
+div#map {width: auto; height: 480px; border: 3px solid #AECAC2}
+
+div#legend {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px dotted #999999;
+    color: #333333;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    height: auto;
+    padding: 6px;
+    position: absolute;
+    margin-left: 15px;    
+    margin-top: 285px;
+    top: 235px;
+    width: auto;
+    border-radius: 8px;
+    opacity: .8;
+    z-index: 1;
+}
+
+div#preloader {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px dotted #999999;
+    height: auto;
+    padding: 6px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: auto;
+    border-radius: 8px;
+    opacity: .8;
+    z-index: 1;
+}
+
+
+
+
+#legenda span {
+    border: 1px solid #333333;
+    margin: 0;
+    padding: 0 7px;
+}
+
+ul.legenda li {
+    padding: 2px;
+}
+/*tooltip*/
+#tooltip
+{
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 10px;
+  background-color: #fff;
+  border: solid 1px #444;
+  border-radius: 4px;
+  display: none;
+  max-height: 80%;
+  padding: 3px;
+  position: absolute;  
+  overflow: hidden;
+  width: auto;
+  text-align: left;
+  z-index: 9999;
+}
+#tooltip p
+{
+  border-top: 2px solid #444;
+  margin: 0;
+  padding: 0;
+}
+#tooltip p:first-child
+{
+  border-top: none;
+}
+
+
+
+.styled-select {
+   width: auto;
+   height: 44px;
+   overflow: hidden;
+   background-color: #ddd;
+}
+
+.styled-select select {
+   background-color: #fff;
+   width: 630px;
+   padding: 5px;
+   font-size: 16px;
+   border: 1px solid #ccc;
+   height: 44px;
+}
+#tituloInfo {
+    border-bottom: 2px solid #AECAC2;
+    font-size: 12px;
+    width:auto;
+    font-family: Arial,Helvetica,sans-serif;
+    height: 25px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+div#grupodesc {
+    
+    border-bottom: 1px solid #063;
+    background-color: #fff;
+    font-size: 9px;
+    width:auto;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #000;
+    height: auto;
+    text-align: center;
+    padding-left: 0px;    
+    padding-right:  0px;    
+}
+div#grupodesc table td {
+    border: 1px solid #fff;
+    background-color:#fff;
+    padding: 2px;
+    text-align: center;
+}
+div#grupodesc table td {
+    padding: 4px;
+}
+/**fim mapa tematico*/
+ .control-zoom {
+    backg    padding: 5px;
+round: none repeat scroll 0 0 rgba(0, 0, 0, 0.25);
+}
+.control-zoom, .control-layers {
+    border-radius: 7px 7px 7px 7px;
+}
+.control {
+    clear: both;
+    float: left;
+}
+.control {
+    position: absolute;
+    margin-top: 112px;
+    top: 112px;
+    margin-left: 26px;
+    z-index: 7;
+}
+.control-zoom a {
+    border-radius: 4px 4px 4px 4px;
+    height: 19px;
+    width: 19px;
+}
+.control-zoom a, .control-layers a {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    display: block;
+}
+.control-zoom a {
+    background-color: rgba(255, 255, 255, 0.75);
+}
+.control-zoom-in {
+    background-image: url("../img/zoom-in.png");
+    margin-bottom: 5px;
+}
+.control-zoom-out {
+    background-image: url("../img/zoom-out.png");
+    margin-bottom: 5px;
+}
+.control-zoom a:hover {
+    background-color: #ffffff;
+}
+a {
+    color: #0088CC;
+    text-decoration: none;
+}

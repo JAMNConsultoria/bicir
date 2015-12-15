@@ -1,0 +1,249 @@
+[07-Jan-2013 08:36:14] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/localidade_dao_class.php on line 110
+[07-Jan-2013 08:36:14] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1' in /home/jamnc142/public_html/projetos/bicir/dao/localidade_dao_class.php:116
+Stack trace:
+#0 /home/jamnc142/public_html/projetos/bicir/dao/localidade_dao_class.php(116): PDOStatement->execute()
+#1 /home/jamnc142/public_html/projetos/bicir/business/localidade_business_class.php(27): LocalidadeDAO->findLocsByArrId(NULL)
+#2 /home/jamnc142/public_html/projetos/bicir/view/selecoes.php(109): LocalidadeBusiness->findLocsByArrId(NULL)
+#3 {main}
+  thrown in /home/jamnc142/public_html/projetos/bicir/dao/localidade_dao_class.php on line 116
+[07-Jan-2013 08:36:14] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/view/localidade.php on line 34
+[07-Jan-2013 08:36:14] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jamnc142/public_html/projetos/bicir/view/localidade.php:34) in /home/jamnc142/public_html/projetos/bicir/view/incs/cabecalho.php on line 1
+[07-Jan-2013 08:36:17] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/indicador_dao_class.php on line 46
+[09-Jan-2013 12:30:59] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1' in /home/jamnc142/public_html/projetos/bicir/dao/localidade_dao_class.php:116
+Stack trace:
+#0 /home/jamnc142/public_html/projetos/bicir/dao/localidade_dao_class.php(116): PDOStatement->execute()
+#1 /home/jamnc142/public_html/projetos/bicir/business/localidade_business_class.php(27): LocalidadeDAO->findLocsByArrId(Array)
+#2 /home/jamnc142/public_html/projetos/bicir/view/selecoes.php(109): LocalidadeBusiness->findLocsByArrId(Array)
+#3 {main}
+  thrown in /home/jamnc142/public_html/projetos/bicir/dao/localidade_dao_class.php on line 116
+[09-Jan-2013 12:56:42] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 116
+[09-Jan-2013 12:56:42] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 117
+[09-Jan-2013 12:56:42] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM tbconteudoh  WHERE localidadeId in () ORDER BY nome_uf,nome_cir,nome_mun AS' at line 1' in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php:125
+Stack trace:
+#0 /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php(125): PDOStatement->execute()
+#1 /home/jamnc142/public_html/projetos/bicir/business/dados_business_class.php(17): DadosDAO->findDadosByLocsAndIndics(NULL, NULL, '1')
+#2 /home/jamnc142/public_html/projetos/bicir/view/output.php(18): DadosBusiness->findDadosByLocsAndIndics(NULL, NULL, '1')
+#3 {main}
+  thrown in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 125
+[05-Mar-2013 15:25:55] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 116
+[05-Mar-2013 15:25:55] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 117
+[05-Mar-2013 15:25:55] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM tbconteudoh  WHERE localidadeId in () ORDER BY nome_uf,nome_cir,nome_mun AS' at line 1' in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php:125
+Stack trace:
+#0 /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php(125): PDOStatement->execute()
+#1 /home/jamnc142/public_html/projetos/bicir/business/dados_business_class.php(17): DadosDAO->findDadosByLocsAndIndics(NULL, NULL, '1')
+#2 /home/jamnc142/public_html/projetos/bicir/view/output.php(18): DadosBusiness->findDadosByLocsAndIndics(NULL, NULL, '1')
+#3 {main}
+  thrown in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 125
+[12-Jun-2013 12:09:25] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/view/localidade.php on line 34
+[12-Jun-2013 12:09:25] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jamnc142/public_html/projetos/bicir/view/localidade.php:34) in /home/jamnc142/public_html/projetos/bicir/view/incs/cabecalho.php on line 1
+[12-Jun-2013 12:09:25] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/indicador_dao_class.php on line 46
+[12-Jun-2013 12:13:41] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 116
+[12-Jun-2013 12:13:41] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 117
+[12-Jun-2013 12:13:41] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM tbconteudoh  WHERE localidadeId in () ORDER BY nome_uf,nome_cir,nome_mun AS' at line 1' in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php:125
+Stack trace:
+#0 /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php(125): PDOStatement->execute()
+#1 /home/jamnc142/public_html/projetos/bicir/business/dados_business_class.php(17): DadosDAO->findDadosByLocsAndIndics(NULL, NULL, '2')
+#2 /home/jamnc142/public_html/projetos/bicir/view/output.php(18): DadosBusiness->findDadosByLocsAndIndics(NULL, NULL, '2')
+#3 {main}
+  thrown in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 125
+[12-Jun-2013 12:15:16] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 116
+[12-Jun-2013 12:15:16] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 117
+[12-Jun-2013 12:15:16] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM tbconteudoh  WHERE localidadeId in () ORDER BY nome_uf,nome_cir,nome_mun AS' at line 1' in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php:125
+Stack trace:
+#0 /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php(125): PDOStatement->execute()
+#1 /home/jamnc142/public_html/projetos/bicir/business/dados_business_class.php(17): DadosDAO->findDadosByLocsAndIndics(NULL, NULL, '2')
+#2 /home/jamnc142/public_html/projetos/bicir/view/output.php(18): DadosBusiness->findDadosByLocsAndIndics(NULL, NULL, '2')
+#3 {main}
+  thrown in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 125
+[17-Jun-2013 12:14:25] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 116
+[17-Jun-2013 12:14:25] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 117
+[17-Jun-2013 12:14:25] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM tbconteudoh  WHERE localidadeId in () ORDER BY nome_uf,nome_cir,nome_mun AS' at line 1' in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php:125
+Stack trace:
+#0 /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php(125): PDOStatement->execute()
+#1 /home/jamnc142/public_html/projetos/bicir/business/dados_business_class.php(17): DadosDAO->findDadosByLocsAndIndics(NULL, NULL, '2')
+#2 /home/jamnc142/public_html/projetos/bicir/view/output.php(18): DadosBusiness->findDadosByLocsAndIndics(NULL, NULL, '2')
+#3 {main}
+  thrown in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 125
+[17-Jun-2013 12:15:31] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 116
+[17-Jun-2013 12:15:31] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 117
+[17-Jun-2013 12:15:31] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM tbconteudoh  WHERE localidadeId in () ORDER BY nome_uf,nome_cir,nome_mun AS' at line 1' in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php:125
+Stack trace:
+#0 /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php(125): PDOStatement->execute()
+#1 /home/jamnc142/public_html/projetos/bicir/business/dados_business_class.php(17): DadosDAO->findDadosByLocsAndIndics(NULL, NULL, '2')
+#2 /home/jamnc142/public_html/projetos/bicir/view/output.php(18): DadosBusiness->findDadosByLocsAndIndics(NULL, NULL, '2')
+#3 {main}
+  thrown in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 125
+[17-Jun-2013 12:16:39] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/view/localidade.php on line 34
+[17-Jun-2013 12:16:39] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jamnc142/public_html/projetos/bicir/view/localidade.php:34) in /home/jamnc142/public_html/projetos/bicir/view/incs/cabecalho.php on line 1
+[17-Jun-2013 12:16:40] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/indicador_dao_class.php on line 46
+[17-Jun-2013 12:17:09] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 116
+[17-Jun-2013 12:17:09] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 117
+[17-Jun-2013 12:17:09] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM tbconteudoh  WHERE localidadeId in () ORDER BY nome_uf,nome_cir,nome_mun AS' at line 1' in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php:125
+Stack trace:
+#0 /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php(125): PDOStatement->execute()
+#1 /home/jamnc142/public_html/projetos/bicir/business/dados_business_class.php(17): DadosDAO->findDadosByLocsAndIndics(NULL, NULL, 4)
+#2 /home/jamnc142/public_html/projetos/bicir/view/output.php(18): DadosBusiness->findDadosByLocsAndIndics(NULL, NULL, 4)
+#3 {main}
+  thrown in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 125
+[17-Jun-2013 12:18:45] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 116
+[17-Jun-2013 12:18:45] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 117
+[17-Jun-2013 12:18:45] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM tbconteudoh  WHERE localidadeId in () ORDER BY nome_uf,nome_cir,nome_mun AS' at line 1' in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php:125
+Stack trace:
+#0 /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php(125): PDOStatement->execute()
+#1 /home/jamnc142/public_html/projetos/bicir/business/dados_business_class.php(17): DadosDAO->findDadosByLocsAndIndics(NULL, NULL, '2')
+#2 /home/jamnc142/public_html/projetos/bicir/view/output.php(18): DadosBusiness->findDadosByLocsAndIndics(NULL, NULL, '2')
+#3 {main}
+  thrown in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 125
+[17-Jun-2013 12:57:19] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 116
+[17-Jun-2013 12:57:19] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 117
+[17-Jun-2013 12:57:19] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM tbconteudoh  WHERE localidadeId in () ORDER BY nome_uf,nome_cir,nome_mun AS' at line 1' in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php:125
+Stack trace:
+#0 /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php(125): PDOStatement->execute()
+#1 /home/jamnc142/public_html/projetos/bicir/business/dados_business_class.php(17): DadosDAO->findDadosByLocsAndIndics(NULL, NULL, '2')
+#2 /home/jamnc142/public_html/projetos/bicir/view/output.php(18): DadosBusiness->findDadosByLocsAndIndics(NULL, NULL, '2')
+#3 {main}
+  thrown in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 125
+[17-Jun-2013 13:12:39] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 116
+[17-Jun-2013 13:12:39] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 117
+[17-Jun-2013 13:12:39] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM tbconteudoh  WHERE localidadeId in () ORDER BY nome_uf,nome_cir,nome_mun AS' at line 1' in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php:125
+Stack trace:
+#0 /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php(125): PDOStatement->execute()
+#1 /home/jamnc142/public_html/projetos/bicir/business/dados_business_class.php(17): DadosDAO->findDadosByLocsAndIndics(NULL, NULL, '2')
+#2 /home/jamnc142/public_html/projetos/bicir/view/output.php(18): DadosBusiness->findDadosByLocsAndIndics(NULL, NULL, '2')
+#3 {main}
+  thrown in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 125
+[17-Jun-2013 13:14:16] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 116
+[17-Jun-2013 13:14:16] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 117
+[17-Jun-2013 13:14:16] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM tbconteudoh  WHERE localidadeId in () ORDER BY nome_uf,nome_cir,nome_mun AS' at line 1' in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php:125
+Stack trace:
+#0 /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php(125): PDOStatement->execute()
+#1 /home/jamnc142/public_html/projetos/bicir/business/dados_business_class.php(17): DadosDAO->findDadosByLocsAndIndics(NULL, NULL, '2')
+#2 /home/jamnc142/public_html/projetos/bicir/view/output.php(18): DadosBusiness->findDadosByLocsAndIndics(NULL, NULL, '2')
+#3 {main}
+  thrown in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 125
+[17-Jun-2013 13:14:42] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 116
+[17-Jun-2013 13:14:42] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 117
+[17-Jun-2013 13:14:42] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM tbconteudoh  WHERE localidadeId in () ORDER BY nome_uf,nome_cir,nome_mun AS' at line 1' in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php:125
+Stack trace:
+#0 /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php(125): PDOStatement->execute()
+#1 /home/jamnc142/public_html/projetos/bicir/business/dados_business_class.php(17): DadosDAO->findDadosByLocsAndIndics(NULL, NULL, '2')
+#2 /home/jamnc142/public_html/projetos/bicir/view/output.php(18): DadosBusiness->findDadosByLocsAndIndics(NULL, NULL, '2')
+#3 {main}
+  thrown in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 125
+[17-Jun-2013 13:20:14] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 116
+[17-Jun-2013 13:20:14] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 117
+[17-Jun-2013 13:20:14] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM tbconteudoh  WHERE localidadeId in () ORDER BY nome_uf,nome_cir,nome_mun AS' at line 1' in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php:125
+Stack trace:
+#0 /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php(125): PDOStatement->execute()
+#1 /home/jamnc142/public_html/projetos/bicir/business/dados_business_class.php(17): DadosDAO->findDadosByLocsAndIndics(NULL, NULL, '2')
+#2 /home/jamnc142/public_html/projetos/bicir/view/output.php(18): DadosBusiness->findDadosByLocsAndIndics(NULL, NULL, '2')
+#3 {main}
+  thrown in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 125
+[01-Jul-2013 14:05:58] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/view/localidade.php on line 34
+[01-Jul-2013 14:05:58] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jamnc142/public_html/projetos/bicir/view/localidade.php:34) in /home/jamnc142/public_html/projetos/bicir/view/incs/cabecalho.php on line 1
+[01-Jul-2013 14:05:58] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/indicador_dao_class.php on line 46
+[01-Jul-2013 14:08:54] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/localidade_dao_class.php on line 110
+[01-Jul-2013 14:08:54] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/view/localidade.php on line 34
+[01-Jul-2013 14:08:54] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jamnc142/public_html/projetos/bicir/view/localidade.php:34) in /home/jamnc142/public_html/projetos/bicir/view/incs/cabecalho.php on line 1
+[01-Jul-2013 14:08:54] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1' in /home/jamnc142/public_html/projetos/bicir/dao/localidade_dao_class.php:116
+Stack trace:
+#0 /home/jamnc142/public_html/projetos/bicir/dao/localidade_dao_class.php(116): PDOStatement->execute()
+#1 /home/jamnc142/public_html/projetos/bicir/business/localidade_business_class.php(27): LocalidadeDAO->findLocsByArrId(NULL)
+#2 /home/jamnc142/public_html/projetos/bicir/view/selecoes.php(109): LocalidadeBusiness->findLocsByArrId(NULL)
+#3 {main}
+  thrown in /home/jamnc142/public_html/projetos/bicir/dao/localidade_dao_class.php on line 116
+[01-Jul-2013 14:08:55] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/indicador_dao_class.php on line 46
+[01-Jul-2013 14:11:32] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 116
+[01-Jul-2013 14:11:32] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 117
+[01-Jul-2013 14:11:32] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM tbconteudoh  WHERE localidadeId in () ORDER BY nome_uf,nome_cir,nome_mun AS' at line 1' in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php:125
+Stack trace:
+#0 /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php(125): PDOStatement->execute()
+#1 /home/jamnc142/public_html/projetos/bicir/business/dados_business_class.php(17): DadosDAO->findDadosByLocsAndIndics(NULL, NULL, 4)
+#2 /home/jamnc142/public_html/projetos/bicir/view/output.php(18): DadosBusiness->findDadosByLocsAndIndics(NULL, NULL, 4)
+#3 {main}
+  thrown in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 125
+[01-Jul-2013 14:14:33] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 116
+[01-Jul-2013 14:14:33] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 117
+[01-Jul-2013 14:14:33] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM tbconteudoh  WHERE localidadeId in () ORDER BY nome_uf,nome_cir,nome_mun AS' at line 1' in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php:125
+Stack trace:
+#0 /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php(125): PDOStatement->execute()
+#1 /home/jamnc142/public_html/projetos/bicir/business/dados_business_class.php(17): DadosDAO->findDadosByLocsAndIndics(NULL, NULL, 4)
+#2 /home/jamnc142/public_html/projetos/bicir/view/output.php(18): DadosBusiness->findDadosByLocsAndIndics(NULL, NULL, 4)
+#3 {main}
+  thrown in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 125
+[26-Aug-2013 15:20:42] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/localidade_dao_class.php on line 110
+[26-Aug-2013 15:20:42] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1' in /home/jamnc142/public_html/projetos/bicir/dao/localidade_dao_class.php:116
+Stack trace:
+#0 /home/jamnc142/public_html/projetos/bicir/dao/localidade_dao_class.php(116): PDOStatement->execute()
+#1 /home/jamnc142/public_html/projetos/bicir/business/localidade_business_class.php(27): LocalidadeDAO->findLocsByArrId(NULL)
+#2 /home/jamnc142/public_html/projetos/bicir/view/selecoes.php(109): LocalidadeBusiness->findLocsByArrId(NULL)
+#3 {main}
+  thrown in /home/jamnc142/public_html/projetos/bicir/dao/localidade_dao_class.php on line 116
+[26-Aug-2013 15:20:42] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/view/localidade.php on line 34
+[26-Aug-2013 15:20:42] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jamnc142/public_html/projetos/bicir/view/localidade.php:34) in /home/jamnc142/public_html/projetos/bicir/view/incs/cabecalho.php on line 1
+[26-Aug-2013 15:20:45] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/indicador_dao_class.php on line 46
+[02-Sep-2013 11:33:23] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 116
+[02-Sep-2013 11:33:23] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 117
+[02-Sep-2013 11:33:23] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM tbconteudoh  WHERE localidadeId in () ORDER BY nome_uf,nome_cir,nome_mun AS' at line 1' in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php:125
+Stack trace:
+#0 /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php(125): PDOStatement->execute()
+#1 /home/jamnc142/public_html/projetos/bicir/business/dados_business_class.php(17): DadosDAO->findDadosByLocsAndIndics(NULL, NULL, '1')
+#2 /home/jamnc142/public_html/projetos/bicir/view/output.php(18): DadosBusiness->findDadosByLocsAndIndics(NULL, NULL, '1')
+#3 {main}
+  thrown in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 125
+[02-Sep-2013 11:34:17] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 116
+[02-Sep-2013 11:34:17] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 117
+[02-Sep-2013 11:34:17] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM tbconteudoh  WHERE localidadeId in () ORDER BY nome_uf,nome_cir,nome_mun AS' at line 1' in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php:125
+Stack trace:
+#0 /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php(125): PDOStatement->execute()
+#1 /home/jamnc142/public_html/projetos/bicir/business/dados_business_class.php(17): DadosDAO->findDadosByLocsAndIndics(NULL, NULL, '1')
+#2 /home/jamnc142/public_html/projetos/bicir/view/output.php(18): DadosBusiness->findDadosByLocsAndIndics(NULL, NULL, '1')
+#3 {main}
+  thrown in /home/jamnc142/public_html/projetos/bicir/dao/dados_dao_class.php on line 125
+[13-Nov-2013 16:58:57] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/localidade_dao_class.php on line 110
+[13-Nov-2013 16:58:57] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1' in /home/jamnc142/public_html/projetos/bicir/dao/localidade_dao_class.php:116
+Stack trace:
+#0 /home/jamnc142/public_html/projetos/bicir/dao/localidade_dao_class.php(116): PDOStatement->execute()
+#1 /home/jamnc142/public_html/projetos/bicir/business/localidade_business_class.php(27): LocalidadeDAO->findLocsByArrId(NULL)
+#2 /home/jamnc142/public_html/projetos/bicir/view/selecoes.php(109): LocalidadeBusiness->findLocsByArrId(NULL)
+#3 {main}
+  thrown in /home/jamnc142/public_html/projetos/bicir/dao/localidade_dao_class.php on line 116
+[29-Dec-2013 22:42:09] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/view/localidade.php on line 34
+[29-Dec-2013 22:42:09] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jamnc142/public_html/projetos/bicir/view/localidade.php:34) in /home/jamnc142/public_html/projetos/bicir/view/incs/cabecalho.php on line 1
+[30-Jan-2014 13:31:17] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/view/localidade.php on line 34
+[30-Jan-2014 13:31:17] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jamnc142/public_html/projetos/bicir/view/localidade.php:34) in /home/jamnc142/public_html/projetos/bicir/view/incs/cabecalho.php on line 1
+[30-Jan-2014 13:31:29] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/indicador_dao_class.php on line 46
+[24-Apr-2014 01:15:51] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/localidade_dao_class.php on line 110
+[24-Apr-2014 01:15:51] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1' in /home/jamnc142/public_html/projetos/bicir/dao/localidade_dao_class.php:116
+Stack trace:
+#0 /home/jamnc142/public_html/projetos/bicir/dao/localidade_dao_class.php(116): PDOStatement->execute()
+#1 /home/jamnc142/public_html/projetos/bicir/business/localidade_business_class.php(27): LocalidadeDAO->findLocsByArrId(NULL)
+#2 /home/jamnc142/public_html/projetos/bicir/view/selecoes.php(109): LocalidadeBusiness->findLocsByArrId(NULL)
+#3 {main}
+  thrown in /home/jamnc142/public_html/projetos/bicir/dao/localidade_dao_class.php on line 116
+[24-Apr-2014 01:15:51] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/view/localidade.php on line 34
+[24-Apr-2014 01:15:51] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jamnc142/public_html/projetos/bicir/view/localidade.php:34) in /home/jamnc142/public_html/projetos/bicir/view/incs/cabecalho.php on line 1
+[24-Apr-2014 01:15:52] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/indicador_dao_class.php on line 46
+[24-Apr-2014 01:16:19] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/indicador_dao_class.php on line 46
+[24-Apr-2014 15:33:44] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/localidade_dao_class.php on line 110
+[24-Apr-2014 15:33:44] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1' in /home/jamnc142/public_html/projetos/bicir/dao/localidade_dao_class.php:116
+Stack trace:
+#0 /home/jamnc142/public_html/projetos/bicir/dao/localidade_dao_class.php(116): PDOStatement->execute()
+#1 /home/jamnc142/public_html/projetos/bicir/business/localidade_business_class.php(27): LocalidadeDAO->findLocsByArrId(NULL)
+#2 /home/jamnc142/public_html/projetos/bicir/view/selecoes.php(109): LocalidadeBusiness->findLocsByArrId(NULL)
+#3 {main}
+  thrown in /home/jamnc142/public_html/projetos/bicir/dao/localidade_dao_class.php on line 116
+[29-Apr-2014 10:38:05] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/view/localidade.php on line 34
+[29-Apr-2014 10:38:05] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jamnc142/public_html/projetos/bicir/view/localidade.php:34) in /home/jamnc142/public_html/projetos/bicir/view/incs/cabecalho.php on line 1
+[29-Apr-2014 10:38:05] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/indicador_dao_class.php on line 46
+[29-Apr-2014 10:54:07] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/localidade_dao_class.php on line 110
+[29-Apr-2014 10:54:07] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1' in /home/jamnc142/public_html/projetos/bicir/dao/localidade_dao_class.php:116
+Stack trace:
+#0 /home/jamnc142/public_html/projetos/bicir/dao/localidade_dao_class.php(116): PDOStatement->execute()
+#1 /home/jamnc142/public_html/projetos/bicir/business/localidade_business_class.php(27): LocalidadeDAO->findLocsByArrId(NULL)
+#2 /home/jamnc142/public_html/projetos/bicir/view/selecoes.php(109): LocalidadeBusiness->findLocsByArrId(NULL)
+#3 {main}
+  thrown in /home/jamnc142/public_html/projetos/bicir/dao/localidade_dao_class.php on line 116
+[29-Apr-2014 10:54:07] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/view/localidade.php on line 34
+[29-Apr-2014 10:54:07] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jamnc142/public_html/projetos/bicir/view/localidade.php:34) in /home/jamnc142/public_html/projetos/bicir/view/incs/cabecalho.php on line 1
+[29-Apr-2014 10:54:07] PHP Warning:  implode() [<a href='function.implode'>function.implode</a>]: Invalid arguments passed in /home/jamnc142/public_html/projetos/bicir/dao/indicador_dao_class.php on line 46
